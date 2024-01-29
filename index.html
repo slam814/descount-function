@@ -32,15 +32,22 @@
             color: yellow;
         }
 
+        p{
+            /* background-color: yellow; */
+            color: red;
+            margin: 40px 60px 40px 60px;
+        }
+
     </style>
 </head>
 <body>
     
     <div class="bg-secondary container-md box-1 text-center  ">
         <img src="th.jpeg" alt="">
-        <h1>Product Price: <span id="product-price">100</span>Taka</h1>
+        <h1>Product Price: <span id="product-price">100.00</span> Taka</h1>
         <h2 class="yelow-text">Discount <span id="discount-price">30</span>% Off</h2> <button id="apply-btn" class="">Apply</button>
-        <input id="input-fild" type="text">
+        <input id="input-fild" placeholder="Please input Price" type="text">
+        <p id="worning-message"></p>
 
         
     </div>
