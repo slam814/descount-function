@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <style>
+        .box-1{
+            height: 500px;
+            margin: 3% auto;
+            padding-top: 15%;
+            padding-bottom: 25%;
+        }
+        h1{
+            color: white;
+        }
+        #apply-btn{
+            color: white;
+            background-color: brown;
+        }
+        .box-1 img{
+            border-radius: 10%;
+            margin-bottom: 10px;
+        }
+        button, input{
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+        .yelow-text{
+            background-color: yellowgreen;
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="bg-secondary container-md box-1 text-center  ">
+        <img src="th.jpeg" alt="">
+        <h1>Product Price: <span id="product-price">100</span>Taka</h1>
+        <h2 class="yelow-text">Discount <span id="discount-price">30</span>% Off</h2> <button id="apply-btn" class="">Apply</button>
+        <input id="input-fild" type="text">
+
+        
+    </div>
+
+    <script src="function.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
